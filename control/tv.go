@@ -9,10 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ghthor/gowol"
-
-	"github.com/sweharris/go-lgtv/connection"
-	iputil "github.com/sweharris/go-lgtv/util/ip"
+	wol "github.com/ghthor/gowol"
+	"github.com/kidoman/go-lgtv/connection"
+	iputil "github.com/kidoman/go-lgtv/util/ip"
 )
 
 // ErrNotConnected is returned if an request is attempted to a TV which is not connected to the client

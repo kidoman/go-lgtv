@@ -1,14 +1,13 @@
 package connection
 
 import (
+	"encoding/json"
 	"errors"
 	"fmt"
 	"net"
 	"strconv"
 	"sync"
 	"time"
-
-	"encoding/json"
 
 	"github.com/gorilla/websocket"
 )

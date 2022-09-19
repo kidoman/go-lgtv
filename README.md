@@ -21,7 +21,7 @@ Go-LgTv is a Golang package for discovering and controlling LG Smart TVs. This h
 Get it:
 
 ```
-go get github.com/sweharris/go-lgtv
+go get github.com/kidoman/go-lgtv
 ```
 
 ## Examples
@@ -30,8 +30,8 @@ go get github.com/sweharris/go-lgtv
 package main
 
 import (
-	"github.com/sweharris/go-lgtv/control"
-	"github.com/sweharris/go-lgtv/discovery"
+	"github.com/kidoman/go-lgtv/control"
+	"github.com/kidoman/go-lgtv/discovery"
 )
 
 func main() {
