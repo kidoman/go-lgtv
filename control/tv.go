@@ -299,9 +299,10 @@ func (tv *LgTv) ListExternalInputs() ([]Input, error) {
 	inputs := make([]Input, len(respPayload.Devices))
 	for i, v := range respPayload.Devices {
 		inputs[i] = Input{
-			ID:    v.ID,
-			Label: v.Label,
-			tv:    tv,
+			ID:        v.ID,
+			Label:     v.Label,
+			Connected: v.Connected,
+			tv:        tv,
 		}
 	}
 

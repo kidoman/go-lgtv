@@ -2,9 +2,11 @@ package control
 
 // Input represents an external input to the TV
 type Input struct {
-	Label string
-	ID    string
-	tv    *LgTv
+	Label     string
+	ID        string
+	Connected bool
+
+	tv *LgTv
 }
 
 // Switch switches the TV to this input
